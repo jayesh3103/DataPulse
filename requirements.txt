@@ -1,0 +1,7 @@
+django
+djangorestframework
+twilio
+google-api-python-client
+boto3
+pandas
+python-decouple
