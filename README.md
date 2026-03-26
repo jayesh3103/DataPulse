@@ -217,12 +217,11 @@ I have included above, some of the messages received. I have sent client'name in
 ```A recent client partner wanted us to send an SMS to the customer whose details are collected in the response as soon as the ingestion was complete reliably. The content of the SMS consists of details of the customer, which were a part of the answers in the response. This customer was supposed to use this as a “receipt” for them having participated in the exercise.```
 
 ## Sending response via API endpoint from Postman
-<img src='images/Task-4 Postman View.png'>
 
 It will also check beforehand if the client already exists or not. If it does, then it says `Client already exists`, else a new client data is created.
 
 ## Message received after submitting the response via Twilio
-<img src='images/Twilio SMS.jpg'>
+
 
 I have used Twilio, a cloud communications platform, for the SMS feature. Twilio's APIs enable us to send SMS messages globally and reliably.
 This is one of the unique features - the ability to send an SMS to the customer whose details are collected in the response as soon as the ingestion is complete reliably. The content of the SMS consists of details of the customer, which were a part of the answers in the response. This allows the customer to use the SMS as a “receipt” for their participation in the exercise.
